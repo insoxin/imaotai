@@ -22,12 +22,16 @@ docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/root/imaotai
 
 修改本地/root/imaotai/config/config.json参数
 
-User-Agent,Client_Secret,Cookie.必填 还有经纬度不要默认 程序会就近预约最近距离店铺
+User-Agent,Client_Secret,Cookie.必填 
 
-其他配置默认即可
+还有经纬度不要默认 程序会就近预约最近距离店铺
+
+
+其他配置不懂的默认即可
+
 ### 配置sendNotify.js 通知
 
-下载https://github.com/insoxin/imaotai/blob/main/config/sendNotify.js 修改本地/root/imaotai/config/sendNotify.js 
+下载https://github.com/insoxin/imaotai/blob/main/config/sendNotify.js 至本地/root/imaotai/config/sendNotify.js 
 
 sendNotify.js是通知文件按需修改
 
