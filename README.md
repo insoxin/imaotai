@@ -15,17 +15,20 @@ docker pull insoxin/imaotai:latest
 docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/imaotai/config --restart unless-stopped insoxin/imaotai:latest
 ```
 
-## 3.下载修改本地/root/imaotai/config/config.json
+## 3.配置参数
 
-User-Agent,Client_Secret,Cookie.经纬度.必填.
+下载修改本地/root/imaotai/config/config.json
+
+User-Agent,Client_Secret,Cookie.经纬度.必填
 
 其他配置默认即可
 
-和/root/imaotai/config/sendNotify.js 
+下载修改本地/root/imaotai/config/sendNotify.js 
 
 sendNotify.js是通知文件按需修改
 
 并重启
+
 ```json
 {
   "Main": {
@@ -45,7 +48,7 @@ sendNotify.js是通知文件按需修改
     "Client_Secret": "aaa",
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 moutaiapp/1.0.6 device-id/insoxin/imaotai"
   },
-  "Notice": "如果需要公告,请在此配置项里面些内容。不需要公告请此配置项留空"
+  "Notice": "通知中的标题"
 }
 
 ```
