@@ -12,15 +12,15 @@ docker pull insoxin/imaotai:latest
 ## 2.创建容器
 
 ```docker
-docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/root/imaotai/config --restart unless-stopped insoxin/imaotai:latest
+docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/go/src/imaotai/config --restart unless-stopped insoxin/imaotai:latest
 ```
 
 ## 3.配置参数
 
 ### 配置config.json
-下载下载https://github.com/insoxin/imaotai/blob/main/config/config.json 至本地 /root/imaotai/config/config.json
+下载下载https://github.com/insoxin/imaotai/blob/main/config/config.json 至本地 /go/src/imaotai/config/config.json
 
-修改本地/root/imaotai/config/config.json参数
+修改本地/go/src/imaotai/config/config.json参数
 
 User-Agent,Client_Secret,Cookie.必填 
 
@@ -33,7 +33,7 @@ User-Agent,Client_Secret,Cookie.必填
 
 ### 配置sendNotify.js 通知
 
-下载https://github.com/insoxin/imaotai/blob/main/config/sendNotify.js 至本地/root/imaotai/config/sendNotify.js 
+下载https://github.com/insoxin/imaotai/blob/main/config/sendNotify.js 至本地/go/src/imaotai/config/sendNotify.js 
 
 sendNotify.js是通知文件按需修改
 
