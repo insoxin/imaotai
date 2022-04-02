@@ -5,17 +5,17 @@ i茅台app 每日自动预约
 
 
 # 使用方法
-## 1
+## 1.
 ```docker
 docker pull insoxin/imaotai:latest
 ```
-## 2
+## 2.
 
 ```docker
 docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/imaotai/config --restart unless-stopped insoxin/imaotai:latest
 ```
 
-## 修改/imaotai/config/config.json和/imaotai/config/sendNotify.js 并重启
+## 3.修改/imaotai/config/config.json和/imaotai/config/sendNotify.js 并重启
 ```json
 {
   "Main": {
