@@ -21,7 +21,7 @@ docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/imaotai/conf
   "Main": {
     "Title": "insoxin/imaotai",
     "Open": "1,2,3,4",
-    "cron": "0 0 9 ? * *",
+    "cron": "0 0 9 * * *",
     "Tzone": "http://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp",
     "MT-APP-Version": "1.0.0",
     "GeoN": "26.598194",
