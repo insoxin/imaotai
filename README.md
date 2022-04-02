@@ -19,7 +19,7 @@ docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/imaotai/conf
 
 下载修改本地/root/imaotai/config/config.json
 
-User-Agent,Client_Secret,Cookie.经纬度.必填
+User-Agent,Client_Secret,Cookie.必填 还有经纬度不要默认 程序会就近预约最近距离店铺
 
 其他配置默认即可
 
