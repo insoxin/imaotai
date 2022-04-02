@@ -5,17 +5,27 @@ https://github.com/insoxin/imaotai/
 
 
 # 使用方法
-## 1.
+## 1.拉取镜像
 ```docker
 docker pull insoxin/imaotai:latest
 ```
-## 2.
+## 2.创建容器
 
 ```docker
 docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/imaotai/config --restart unless-stopped insoxin/imaotai:latest
 ```
 
-## 3.修改本地/root/imaotai/config/config.json和/root/imaotai/config/sendNotify.js 并重启
+## 3.下载修改本地/root/imaotai/config/config.json
+
+User-Agent,Client_Secret,Cookie.经纬度.必填.
+
+其他配置默认即可
+
+和/root/imaotai/config/sendNotify.js 
+
+sendNotify.js是通知文件按需修改
+
+并重启
 ```json
 {
   "Main": {
