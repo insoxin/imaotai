@@ -29,6 +29,8 @@ User-Agent,Client_Secret,Cookie.必填
 
 其他配置不懂的默认即可
 
+默认每天九点执行(淘宝时间库),预约抢购页面获取到的前四个商品.
+
 ### 配置sendNotify.js 通知
 
 下载https://github.com/insoxin/imaotai/blob/main/config/sendNotify.js 至本地/root/imaotai/config/sendNotify.js 
