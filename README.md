@@ -1,5 +1,5 @@
 # imaotai
-i茅台app 每日自动预约
+i茅台app 每日自动预约 抢茅台
 https://github.com/insoxin/imaotai/
 
 
