@@ -15,7 +15,7 @@ docker pull insoxin/imaotai:latest
 docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/imaotai/config --restart unless-stopped insoxin/imaotai:latest
 ```
 
-## 3.修改/imaotai/config/config.json和/imaotai/config/sendNotify.js 并重启
+## 3.修改本地/root/imaotai/config/config.json和/root/imaotai/config/sendNotify.js 并重启
 ```json
 {
   "Main": {
