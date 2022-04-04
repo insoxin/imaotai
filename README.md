@@ -62,7 +62,12 @@ sendNotify.js是通知文件按需修改
 
 ```
 ## 4.重启 imaotai
-![image.png](https://blog.isoyu.com/wp-content/uploads/2022/04/2022040300072260.jpg)
 
 
 ## 5.点个star 再进  https://github.com/insoxin/     点follow 关注一下  项目被ban了 我会第一时间更新 新项目
+
+
+
+
+![image.png](https://blog.isoyu.com/wp-content/uploads/2022/04/2022040300072260.jpg)
+
