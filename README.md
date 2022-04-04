@@ -63,3 +63,6 @@ sendNotify.js是通知文件按需修改
 ```
 ## 4.重启 imaotai
 ![image.png](https://blog.isoyu.com/wp-content/uploads/2022/04/2022040300072260.jpg)
+
+
+## 5.点个star 获取最新更新
