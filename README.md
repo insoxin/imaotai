@@ -2,7 +2,7 @@
 i茅台app 每日自动预约 抢茅台
 
 
-软件免费,不要相信任何收费.唯一更新地址https://github.com/insoxin/imaotai/
+软件免费,无任何盈利 不要相信任何收费.唯一更新地址https://github.com/insoxin/imaotai/
 
 
 # 使用方法
