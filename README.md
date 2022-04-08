@@ -48,6 +48,7 @@ sendNotify.js是通知文件按需修改
     "MT-APP-Version": "1.0.0",
     "GeoN": "26.598194",
     "GeoE": "106.707410",
+    "GeoKM":"0",
     "sendNotify": "/config/sendNotify.js",
     "oksendNotify": "true"
   },
