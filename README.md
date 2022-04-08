@@ -1,8 +1,9 @@
 # imaotai
 i茅台app 每日自动预约 抢茅台
-https://github.com/insoxin/imaotai/
 
-![image.png](https://blog.isoyu.com/wp-content/uploads/2022/04/2022040300073928.jpg)
+
+软件免费,不要相信任何收费.唯一更新地址https://github.com/insoxin/imaotai/
+
 
 # 使用方法
 ## 1.拉取镜像
