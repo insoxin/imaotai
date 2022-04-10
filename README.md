@@ -25,7 +25,7 @@ docker run -dit --name imaotai -p 1499:1499 -v $PWD/imaotai/config:/go/src/imaot
 
 User-Agent,Client_Secret,Cookie.必填 
 
-还有经纬度不要默认 程序会就近预约最近距离店铺
+还有经纬度不要默认(APP数据以高德地图为准) 程序会就近预约最近距离店铺
 若不想预约太远店铺,可设置GeoKM参数 默认0无限制
 
 其他配置不懂的默认即可
