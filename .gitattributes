@@ -1,2 +1,2 @@
 *.json linguist-language=Objective-C
-*.md linguist-language=Swift
+*.js linguist-language=Swift
