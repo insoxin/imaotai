@@ -1,2 +1,2 @@
-*.yml linguist-language=Swift
 *.json linguist-language=Objective-C
+*.md linguist-language=Swift
