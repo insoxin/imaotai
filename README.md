@@ -1,8 +1,10 @@
 # imaotai
 i茅台app 每日自动预约 抢茅台
 
-
 软件免费,无任何盈利 不要相信任何收费.唯一更新地址https://github.com/insoxin/imaotai/
+
+更新一下:近日很多朋友发邮件咨询新版不能用,旧版客户端提示让升级新版.这个不多说,在发出这个项目没多久就有贵州茅台的企业微信加了我,交流了很多.并且也受邀参观了一下,蹭了几顿饭.吃人嘴软拿人手短,所以后续也没在更新相关(原因之一).有相关学习研究的同学可以参考我博客历史文章已淘汰的算法.
+
 
 
 # 使用方法
@@ -61,6 +63,11 @@ sendNotify.js是通知文件按需修改
   },
   "Notice": "通知中的标题"
 }
+
+
+MD5（2af72f100c356273d46284f6fd1dfc08+数据排序+时间戳）
+
+https://blog.isoyu.com/archives/imaotaimt-device-idmt-r-md5jiajiemi.html
 
 ```
 ## 4.重启 imaotai
